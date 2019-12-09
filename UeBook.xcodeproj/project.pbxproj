@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004F7CE4239BB5BA00BAB2DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F7CE3239BB5BA00BAB2DD /* AVFoundation.framework */; };
+		004F7CF1239BCDBB00BAB2DD /* register.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CED239BCDBA00BAB2DD /* register.jpg */; };
+		004F7CF2239BCDBB00BAB2DD /* homescreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CEE239BCDBA00BAB2DD /* homescreen.jpg */; };
+		004F7CF3239BCDBB00BAB2DD /* login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CEF239BCDBA00BAB2DD /* login.jpg */; };
+		004F7CF4239BCDBB00BAB2DD /* spash-screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CF0239BCDBA00BAB2DD /* spash-screen.jpg */; };
+		004F7CFA239BD13300BAB2DD /* e-book-1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CF6239BD13200BAB2DD /* e-book-1080.png */; };
+		004F7CFB239BD13300BAB2DD /* e-book-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CF7239BD13200BAB2DD /* e-book-512.png */; };
+		004F7CFC239BD13300BAB2DD /* e-book-ico-1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CF8239BD13200BAB2DD /* e-book-ico-1080.png */; };
+		004F7CFD239BD13300BAB2DD /* e-book-ico-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CF9239BD13200BAB2DD /* e-book-ico-512.png */; };
 		0058529B239A710A00E5BE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058529A239A710A00E5BE9B /* AppDelegate.swift */; };
 		0058529D239A710A00E5BE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058529C239A710A00E5BE9B /* ViewController.swift */; };
 		005852A0239A710A00E5BE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0058529E239A710A00E5BE9B /* Main.storyboard */; };
@@ -14,6 +23,43 @@
 		005852A5239A710A00E5BE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005852A3239A710A00E5BE9B /* LaunchScreen.storyboard */; };
 		005852B0239A710A00E5BE9B /* UeBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005852AF239A710A00E5BE9B /* UeBookTests.swift */; };
 		005852BB239A710A00E5BE9B /* UeBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005852BA239A710A00E5BE9B /* UeBookUITests.swift */; };
+		005852CF239A71BA00E5BE9B /* 1-spash-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852CE239A71B900E5BE9B /* 1-spash-screen.png */; };
+		005852D1239A71C300E5BE9B /* 3-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852D0239A71C300E5BE9B /* 3-login.png */; };
+		005852D5239A71D500E5BE9B /* 2-register.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852D4239A71D500E5BE9B /* 2-register.png */; };
+		005852DA239A727D00E5BE9B /* email-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852D9239A727D00E5BE9B /* email-36.png */; };
+		005852DC239A728600E5BE9B /* email-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852DB239A728600E5BE9B /* email-48.png */; };
+		005852DE239A729200E5BE9B /* email-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852DD239A729100E5BE9B /* email-96.png */; };
+		005852E3239A72DC00E5BE9B /* password-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852DF239A72DB00E5BE9B /* password-96.png */; };
+		005852E4239A72DC00E5BE9B /* password-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852E0239A72DB00E5BE9B /* password-48.png */; };
+		005852E5239A72DC00E5BE9B /* password-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852E1239A72DC00E5BE9B /* password-72.png */; };
+		005852E6239A72DC00E5BE9B /* password-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852E2239A72DC00E5BE9B /* password-36.png */; };
+		005852E8239A72FF00E5BE9B /* email-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852E7239A72FF00E5BE9B /* email-72.png */; };
+		005852EE239A734900E5BE9B /* logo-450-126.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852EA239A734800E5BE9B /* logo-450-126.png */; };
+		005852EF239A734900E5BE9B /* logo-720-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852EB239A734800E5BE9B /* logo-720-200.png */; };
+		005852F0239A734900E5BE9B /* logo-900-250.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852EC239A734800E5BE9B /* logo-900-250.png */; };
+		005852F1239A734900E5BE9B /* logo-1080-300.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852ED239A734900E5BE9B /* logo-1080-300.png */; };
+		005852FE239A73D600E5BE9B /* user-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852F2239A73D500E5BE9B /* user-72.png */; };
+		005852FF239A73D600E5BE9B /* book-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852F3239A73D500E5BE9B /* book-36.png */; };
+		00585300239A73D600E5BE9B /* book-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852F4239A73D500E5BE9B /* book-96.png */; };
+		00585301239A73D600E5BE9B /* gender-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852F5239A73D500E5BE9B /* gender-36.png */; };
+		00585302239A73D600E5BE9B /* gender-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852F6239A73D500E5BE9B /* gender-72.png */; };
+		00585303239A73D600E5BE9B /* user-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852F7239A73D500E5BE9B /* user-48.png */; };
+		00585304239A73D600E5BE9B /* gender-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852F8239A73D500E5BE9B /* gender-48.png */; };
+		00585305239A73D600E5BE9B /* gender-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852F9239A73D500E5BE9B /* gender-96.png */; };
+		00585306239A73D600E5BE9B /* book-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852FA239A73D600E5BE9B /* book-72.png */; };
+		00585307239A73D600E5BE9B /* book-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852FB239A73D600E5BE9B /* book-48.png */; };
+		00585308239A73D600E5BE9B /* user-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852FC239A73D600E5BE9B /* user-36.png */; };
+		00585309239A73D600E5BE9B /* user-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 005852FD239A73D600E5BE9B /* user-96.png */; };
+		0058530F239A76E400E5BE9B /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0058530E239A76E400E5BE9B /* loginViewController.swift */; };
+		00585311239A770600E5BE9B /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00585310239A770600E5BE9B /* registerViewController.swift */; };
+		00F3B7F2239E12DD0048FE80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3B7F1239E12DD0048FE80 /* HomeViewController.swift */; };
+		00FCDF3F239E367A001CBE60 /* Pods_UeBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FCDF3E239E367A001CBE60 /* Pods_UeBook.framework */; };
+		00FCDF41239E483B001CBE60 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCDF40239E483B001CBE60 /* ServiceManager.swift */; };
+		00FCDF48239E55AB001CBE60 /* AJAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCDF47239E55AB001CBE60 /* AJAlertController.swift */; };
+		00FCDF54239E584D001CBE60 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCDF53239E584D001CBE60 /* File.swift */; };
+		00FCDF57239E6B20001CBE60 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FCDF56239E6B20001CBE60 /* Bolts.framework */; };
+		00FCDF59239E6B3E001CBE60 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FCDF58239E6B3E001CBE60 /* FBSDKCoreKit.framework */; };
+		00FCDF5B239E6B58001CBE60 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FCDF5A239E6B58001CBE60 /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +80,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004F7CE3239BB5BA00BAB2DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		004F7CED239BCDBA00BAB2DD /* register.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = register.jpg; path = "../../../Docmention/new screen/New folder (3)/register.jpg"; sourceTree = "<group>"; };
+		004F7CEE239BCDBA00BAB2DD /* homescreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homescreen.jpg; path = "../../../Docmention/new screen/New folder (3)/homescreen.jpg"; sourceTree = "<group>"; };
+		004F7CEF239BCDBA00BAB2DD /* login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = login.jpg; path = "../../../Docmention/new screen/New folder (3)/login.jpg"; sourceTree = "<group>"; };
+		004F7CF0239BCDBA00BAB2DD /* spash-screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "spash-screen.jpg"; path = "../../../Docmention/new screen/New folder (3)/spash-screen.jpg"; sourceTree = "<group>"; };
+		004F7CF6239BD13200BAB2DD /* e-book-1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "e-book-1080.png"; path = "../../../../Docmention/new screen/LOGO/e-book-1080.png"; sourceTree = "<group>"; };
+		004F7CF7239BD13200BAB2DD /* e-book-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "e-book-512.png"; path = "../../../../Docmention/new screen/LOGO/e-book-512.png"; sourceTree = "<group>"; };
+		004F7CF8239BD13200BAB2DD /* e-book-ico-1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "e-book-ico-1080.png"; path = "../../../../Docmention/new screen/LOGO/e-book-ico-1080.png"; sourceTree = "<group>"; };
+		004F7CF9239BD13200BAB2DD /* e-book-ico-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "e-book-ico-512.png"; path = "../../../../Docmention/new screen/LOGO/e-book-ico-512.png"; sourceTree = "<group>"; };
 		00585297239A710900E5BE9B /* UeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0058529A239A710A00E5BE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0058529C239A710A00E5BE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +102,47 @@
 		005852B6239A710A00E5BE9B /* UeBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UeBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		005852BA239A710A00E5BE9B /* UeBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UeBookUITests.swift; sourceTree = "<group>"; };
 		005852BC239A710A00E5BE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005852CE239A71B900E5BE9B /* 1-spash-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-spash-screen.png"; path = "../../../../Docmention/Screen/screens/1-spash-screen.png"; sourceTree = "<group>"; };
+		005852D0239A71C300E5BE9B /* 3-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-login.png"; path = "../../../../Docmention/Screen/screens/3-login.png"; sourceTree = "<group>"; };
+		005852D4239A71D500E5BE9B /* 2-register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2-register.png"; path = "../../../../Docmention/Screen/screens/2-register.png"; sourceTree = "<group>"; };
+		005852D6239A71E100E5BE9B /* 4-homescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4-homescreen.png"; sourceTree = "<group>"; };
+		005852D9239A727D00E5BE9B /* email-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email-36.png"; path = "../../../../../Docmention/Icons/ebook-icons/email-36.png"; sourceTree = "<group>"; };
+		005852DB239A728600E5BE9B /* email-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email-48.png"; path = "../../../../../Docmention/Icons/ebook-icons/email-48.png"; sourceTree = "<group>"; };
+		005852DD239A729100E5BE9B /* email-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email-96.png"; path = "../../../../../Docmention/Icons/ebook-icons/email-96.png"; sourceTree = "<group>"; };
+		005852DF239A72DB00E5BE9B /* password-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password-96.png"; path = "../../../../../Docmention/Icons/ebook-icons/password-96.png"; sourceTree = "<group>"; };
+		005852E0239A72DB00E5BE9B /* password-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password-48.png"; path = "../../../../../Docmention/Icons/ebook-icons/password-48.png"; sourceTree = "<group>"; };
+		005852E1239A72DC00E5BE9B /* password-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password-72.png"; path = "../../../../../Docmention/Icons/ebook-icons/password-72.png"; sourceTree = "<group>"; };
+		005852E2239A72DC00E5BE9B /* password-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "password-36.png"; path = "../../../../../Docmention/Icons/ebook-icons/password-36.png"; sourceTree = "<group>"; };
+		005852E7239A72FF00E5BE9B /* email-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "email-72.png"; path = "../../../../../Docmention/Icons/ebook-icons/email-72.png"; sourceTree = "<group>"; };
+		005852EA239A734800E5BE9B /* logo-450-126.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-450-126.png"; path = "../../../../Docmention/Icons/ebook-icons/logo-450-126.png"; sourceTree = "<group>"; };
+		005852EB239A734800E5BE9B /* logo-720-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-720-200.png"; path = "../../../../Docmention/Icons/ebook-icons/logo-720-200.png"; sourceTree = "<group>"; };
+		005852EC239A734800E5BE9B /* logo-900-250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-900-250.png"; path = "../../../../Docmention/Icons/ebook-icons/logo-900-250.png"; sourceTree = "<group>"; };
+		005852ED239A734900E5BE9B /* logo-1080-300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-1080-300.png"; path = "../../../../Docmention/Icons/ebook-icons/logo-1080-300.png"; sourceTree = "<group>"; };
+		005852F2239A73D500E5BE9B /* user-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-72.png"; path = "../../../../Docmention/Icons/ebook-icons/user-72.png"; sourceTree = "<group>"; };
+		005852F3239A73D500E5BE9B /* book-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-36.png"; path = "../../../../Docmention/Icons/ebook-icons/book-36.png"; sourceTree = "<group>"; };
+		005852F4239A73D500E5BE9B /* book-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-96.png"; path = "../../../../Docmention/Icons/ebook-icons/book-96.png"; sourceTree = "<group>"; };
+		005852F5239A73D500E5BE9B /* gender-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gender-36.png"; path = "../../../../Docmention/Icons/ebook-icons/gender-36.png"; sourceTree = "<group>"; };
+		005852F6239A73D500E5BE9B /* gender-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gender-72.png"; path = "../../../../Docmention/Icons/ebook-icons/gender-72.png"; sourceTree = "<group>"; };
+		005852F7239A73D500E5BE9B /* user-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-48.png"; path = "../../../../Docmention/Icons/ebook-icons/user-48.png"; sourceTree = "<group>"; };
+		005852F8239A73D500E5BE9B /* gender-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gender-48.png"; path = "../../../../Docmention/Icons/ebook-icons/gender-48.png"; sourceTree = "<group>"; };
+		005852F9239A73D500E5BE9B /* gender-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gender-96.png"; path = "../../../../Docmention/Icons/ebook-icons/gender-96.png"; sourceTree = "<group>"; };
+		005852FA239A73D600E5BE9B /* book-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-72.png"; path = "../../../../Docmention/Icons/ebook-icons/book-72.png"; sourceTree = "<group>"; };
+		005852FB239A73D600E5BE9B /* book-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-48.png"; path = "../../../../Docmention/Icons/ebook-icons/book-48.png"; sourceTree = "<group>"; };
+		005852FC239A73D600E5BE9B /* user-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-36.png"; path = "../../../../Docmention/Icons/ebook-icons/user-36.png"; sourceTree = "<group>"; };
+		005852FD239A73D600E5BE9B /* user-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-96.png"; path = "../../../../Docmention/Icons/ebook-icons/user-96.png"; sourceTree = "<group>"; };
+		0058530E239A76E400E5BE9B /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		00585310239A770600E5BE9B /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		00F3B7F1239E12DD0048FE80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		00FCDF3E239E367A001CBE60 /* Pods_UeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FCDF40239E483B001CBE60 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		00FCDF47239E55AB001CBE60 /* AJAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJAlertController.swift; sourceTree = "<group>"; };
+		00FCDF53239E584D001CBE60 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		00FCDF56239E6B20001CBE60 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		00FCDF58239E6B3E001CBE60 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		00FCDF5A239E6B58001CBE60 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		52DA483C50097836CDAF8AAF /* Pods-UeBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UeBook.release.xcconfig"; path = "Target Support Files/Pods-UeBook/Pods-UeBook.release.xcconfig"; sourceTree = "<group>"; };
+		8A14E21DF2FD5ED835384B08 /* Pods-UeBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UeBook.debug.xcconfig"; path = "Target Support Files/Pods-UeBook/Pods-UeBook.debug.xcconfig"; sourceTree = "<group>"; };
+		EBC047D05F97969BCB29F16E /* Pods_UeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +150,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FCDF57239E6B20001CBE60 /* Bolts.framework in Frameworks */,
+				00FCDF59239E6B3E001CBE60 /* FBSDKCoreKit.framework in Frameworks */,
+				00FCDF5B239E6B58001CBE60 /* FBSDKLoginKit.framework in Frameworks */,
+				00FCDF3F239E367A001CBE60 /* Pods_UeBook.framework in Frameworks */,
+				004F7CE4239BB5BA00BAB2DD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +175,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004F7CE2239BB5BA00BAB2DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FCDF3E239E367A001CBE60 /* Pods_UeBook.framework */,
+				004F7CE3239BB5BA00BAB2DD /* AVFoundation.framework */,
+				EBC047D05F97969BCB29F16E /* Pods_UeBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		004F7CF5239BD11A00BAB2DD /* LOGO */ = {
+			isa = PBXGroup;
+			children = (
+				004F7CF7239BD13200BAB2DD /* e-book-512.png */,
+				004F7CF6239BD13200BAB2DD /* e-book-1080.png */,
+				004F7CF9239BD13200BAB2DD /* e-book-ico-512.png */,
+				004F7CF8239BD13200BAB2DD /* e-book-ico-1080.png */,
+			);
+			name = LOGO;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		0058528E239A710900E5BE9B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +204,8 @@
 				005852AE239A710A00E5BE9B /* UeBookTests */,
 				005852B9239A710A00E5BE9B /* UeBookUITests */,
 				00585298239A710900E5BE9B /* Products */,
+				004F7CE2239BB5BA00BAB2DD /* Frameworks */,
+				AF8C58FB62989471861305C1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +222,13 @@
 		00585299239A710900E5BE9B /* UeBook */ = {
 			isa = PBXGroup;
 			children = (
-				0058529A239A710A00E5BE9B /* AppDelegate.swift */,
-				0058529C239A710A00E5BE9B /* ViewController.swift */,
+				00FCDF55239E6ABC001CBE60 /* Frameworks */,
+				0058530B239A764400E5BE9B /* Comman */,
+				005852C9239A713000E5BE9B /* Images */,
+				005852C8239A712200E5BE9B /* ViewController */,
+				005852A6239A710A00E5BE9B /* Info.plist */,
 				0058529E239A710A00E5BE9B /* Main.storyboard */,
 				005852A1239A710A00E5BE9B /* Assets.xcassets */,
-				005852A3239A710A00E5BE9B /* LaunchScreen.storyboard */,
-				005852A6239A710A00E5BE9B /* Info.plist */,
 			);
 			path = UeBook;
 			sourceTree = "<group>";
@@ -125,6 +251,136 @@
 			path = UeBookUITests;
 			sourceTree = "<group>";
 		};
+		005852C8239A712200E5BE9B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0058529C239A710A00E5BE9B /* ViewController.swift */,
+				0058530E239A76E400E5BE9B /* loginViewController.swift */,
+				00585310239A770600E5BE9B /* registerViewController.swift */,
+				00F3B7F1239E12DD0048FE80 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		005852C9239A713000E5BE9B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				004F7CF5239BD11A00BAB2DD /* LOGO */,
+				004F7CEE239BCDBA00BAB2DD /* homescreen.jpg */,
+				004F7CEF239BCDBA00BAB2DD /* login.jpg */,
+				004F7CED239BCDBA00BAB2DD /* register.jpg */,
+				004F7CF0239BCDBA00BAB2DD /* spash-screen.jpg */,
+				005852E9239A731800E5BE9B /* Logo */,
+				005852CC239A718E00E5BE9B /* Launch */,
+				005852CA239A713E00E5BE9B /* Login */,
+				005852CB239A718200E5BE9B /* Register */,
+				005852CD239A719900E5BE9B /* Home */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		005852CA239A713E00E5BE9B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				005852D8239A725800E5BE9B /* Icon */,
+				005852D0239A71C300E5BE9B /* 3-login.png */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		005852CB239A718200E5BE9B /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				005852D4239A71D500E5BE9B /* 2-register.png */,
+				005852F3239A73D500E5BE9B /* book-36.png */,
+				005852FB239A73D600E5BE9B /* book-48.png */,
+				005852FA239A73D600E5BE9B /* book-72.png */,
+				005852F4239A73D500E5BE9B /* book-96.png */,
+				005852F5239A73D500E5BE9B /* gender-36.png */,
+				005852F8239A73D500E5BE9B /* gender-48.png */,
+				005852F6239A73D500E5BE9B /* gender-72.png */,
+				005852F9239A73D500E5BE9B /* gender-96.png */,
+				005852FC239A73D600E5BE9B /* user-36.png */,
+				005852F7239A73D500E5BE9B /* user-48.png */,
+				005852F2239A73D500E5BE9B /* user-72.png */,
+				005852FD239A73D600E5BE9B /* user-96.png */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		005852CC239A718E00E5BE9B /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				005852CE239A71B900E5BE9B /* 1-spash-screen.png */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		005852CD239A719900E5BE9B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				005852D6239A71E100E5BE9B /* 4-homescreen.png */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		005852D8239A725800E5BE9B /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				005852D9239A727D00E5BE9B /* email-36.png */,
+				005852E7239A72FF00E5BE9B /* email-72.png */,
+				005852DD239A729100E5BE9B /* email-96.png */,
+				005852DB239A728600E5BE9B /* email-48.png */,
+				005852E2239A72DC00E5BE9B /* password-36.png */,
+				005852E0239A72DB00E5BE9B /* password-48.png */,
+				005852E1239A72DC00E5BE9B /* password-72.png */,
+				005852DF239A72DB00E5BE9B /* password-96.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		005852E9239A731800E5BE9B /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				005852EA239A734800E5BE9B /* logo-450-126.png */,
+				005852EB239A734800E5BE9B /* logo-720-200.png */,
+				005852EC239A734800E5BE9B /* logo-900-250.png */,
+				005852ED239A734900E5BE9B /* logo-1080-300.png */,
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		0058530B239A764400E5BE9B /* Comman */ = {
+			isa = PBXGroup;
+			children = (
+				0058529A239A710A00E5BE9B /* AppDelegate.swift */,
+				005852A3239A710A00E5BE9B /* LaunchScreen.storyboard */,
+				00FCDF40239E483B001CBE60 /* ServiceManager.swift */,
+				00FCDF47239E55AB001CBE60 /* AJAlertController.swift */,
+				00FCDF53239E584D001CBE60 /* File.swift */,
+			);
+			path = Comman;
+			sourceTree = "<group>";
+		};
+		00FCDF55239E6ABC001CBE60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FCDF5A239E6B58001CBE60 /* FBSDKLoginKit.framework */,
+				00FCDF58239E6B3E001CBE60 /* FBSDKCoreKit.framework */,
+				00FCDF56239E6B20001CBE60 /* Bolts.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF8C58FB62989471861305C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A14E21DF2FD5ED835384B08 /* Pods-UeBook.debug.xcconfig */,
+				52DA483C50097836CDAF8AAF /* Pods-UeBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +388,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005852BF239A710A00E5BE9B /* Build configuration list for PBXNativeTarget "UeBook" */;
 			buildPhases = (
+				4FEC9C5E9FA7F5854698DB69 /* [CP] Check Pods Manifest.lock */,
 				00585293239A710900E5BE9B /* Sources */,
 				00585294239A710900E5BE9B /* Frameworks */,
 				00585295239A710900E5BE9B /* Resources */,
+				57A4B47654F56CA13BB82E60 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +487,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005852DC239A728600E5BE9B /* email-48.png in Resources */,
+				00585309239A73D600E5BE9B /* user-96.png in Resources */,
+				005852F1239A734900E5BE9B /* logo-1080-300.png in Resources */,
+				00585304239A73D600E5BE9B /* gender-48.png in Resources */,
+				005852EE239A734900E5BE9B /* logo-450-126.png in Resources */,
 				005852A5239A710A00E5BE9B /* LaunchScreen.storyboard in Resources */,
+				004F7CF2239BCDBB00BAB2DD /* homescreen.jpg in Resources */,
+				00585305239A73D600E5BE9B /* gender-96.png in Resources */,
+				004F7CF1239BCDBB00BAB2DD /* register.jpg in Resources */,
+				005852DE239A729200E5BE9B /* email-96.png in Resources */,
+				004F7CFC239BD13300BAB2DD /* e-book-ico-1080.png in Resources */,
+				00585301239A73D600E5BE9B /* gender-36.png in Resources */,
+				004F7CFB239BD13300BAB2DD /* e-book-512.png in Resources */,
+				004F7CFD239BD13300BAB2DD /* e-book-ico-512.png in Resources */,
+				005852D5239A71D500E5BE9B /* 2-register.png in Resources */,
 				005852A2239A710A00E5BE9B /* Assets.xcassets in Resources */,
+				005852DA239A727D00E5BE9B /* email-36.png in Resources */,
+				005852D1239A71C300E5BE9B /* 3-login.png in Resources */,
+				005852E5239A72DC00E5BE9B /* password-72.png in Resources */,
+				004F7CFA239BD13300BAB2DD /* e-book-1080.png in Resources */,
+				005852EF239A734900E5BE9B /* logo-720-200.png in Resources */,
+				005852E4239A72DC00E5BE9B /* password-48.png in Resources */,
+				00585308239A73D600E5BE9B /* user-36.png in Resources */,
+				00585302239A73D600E5BE9B /* gender-72.png in Resources */,
+				005852E8239A72FF00E5BE9B /* email-72.png in Resources */,
+				004F7CF4239BCDBB00BAB2DD /* spash-screen.jpg in Resources */,
+				005852F0239A734900E5BE9B /* logo-900-250.png in Resources */,
+				005852E3239A72DC00E5BE9B /* password-96.png in Resources */,
+				005852FF239A73D600E5BE9B /* book-36.png in Resources */,
 				005852A0239A710A00E5BE9B /* Main.storyboard in Resources */,
+				00585306239A73D600E5BE9B /* book-72.png in Resources */,
+				005852FE239A73D600E5BE9B /* user-72.png in Resources */,
+				00585300239A73D600E5BE9B /* book-96.png in Resources */,
+				004F7CF3239BCDBB00BAB2DD /* login.jpg in Resources */,
+				005852CF239A71BA00E5BE9B /* 1-spash-screen.png in Resources */,
+				00585303239A73D600E5BE9B /* user-48.png in Resources */,
+				00585307239A73D600E5BE9B /* book-48.png in Resources */,
+				005852E6239A72DC00E5BE9B /* password-36.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +544,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FEC9C5E9FA7F5854698DB69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UeBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A4B47654F56CA13BB82E60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UeBook/Pods-UeBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00585293239A710900E5BE9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F3B7F2239E12DD0048FE80 /* HomeViewController.swift in Sources */,
 				0058529D239A710A00E5BE9B /* ViewController.swift in Sources */,
 				0058529B239A710A00E5BE9B /* AppDelegate.swift in Sources */,
+				0058530F239A76E400E5BE9B /* loginViewController.swift in Sources */,
+				00FCDF48239E55AB001CBE60 /* AJAlertController.swift in Sources */,
+				00585311239A770600E5BE9B /* registerViewController.swift in Sources */,
+				00FCDF54239E584D001CBE60 /* File.swift in Sources */,
+				00FCDF41239E483B001CBE60 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +759,18 @@
 		};
 		005852C0239A710A00E5BE9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A14E21DF2FD5ED835384B08 /* Pods-UeBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UeBook/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UeBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,10 +784,18 @@
 		};
 		005852C1239A710A00E5BE9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DA483C50097836CDAF8AAF /* Pods-UeBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UeBook/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UeBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
