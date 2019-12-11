@@ -10,13 +10,22 @@ import UIKit
 
 
 
-class registerViewController: UIViewController ,UITextFieldDelegate {
+class registerViewController: UIViewController ,UITextFieldDelegate,UIPickerViewDelegate,UIPickerViewDataSource {
+       let thePicker = UIPickerView()
     
-
+    
+    var value:Int = 0
+    
+      var strGender = ["Select Gender","Female", "Male", "Other"] //multi-season
+    var stringActor = ["Select kind of Actor","Reader", "Writer", "Publish House"]
+       var activeDataArray = [String]()
+    
+  //  var strGender = [String](arrayLiteral: "Female", "male", "Other")
+   // var stringActor = [String](arrayLiteral: "Reader", "Writer", "Publish House")
+ 
 
     @IBOutlet weak var txtFullName: UITextField!
     override func viewDidLoad() {
-       
         txtEmail.textColor = UIColor.black
     
         txtGender.delegate=self
@@ -25,22 +34,88 @@ class registerViewController: UIViewController ,UITextFieldDelegate {
         txtFullName.delegate=self
         txtEmail.delegate=self
         
+        txtGender.inputView=thePicker
+        txtActor.inputView=thePicker
+        thePicker.delegate = self
+        thePicker.dataSource=self
+        thePicker.backgroundColor = .white
+        thePicker.layer.borderColor = UIColor.gray.cgColor
+        thePicker.layer.borderWidth = 1
+        
+        
+      
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
     
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return activeDataArray.count
+    }
+    
+    func pickerView( _ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return activeDataArray[row]
+    }
+    
+    func pickerView( _ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+        if(value==1)
+        {
+        txtGender.text = activeDataArray[row]
+            self.view.endEditing(true)
+        }
+        else if(value==2)
+        {
+            txtActor.text=activeDataArray[row]
+            self.view.endEditing(true)
+        }
+        
+        //trying to hide the dataPicker
+        
+        //dataPickerView.reloadAllComponents()
+        //self.dataPickerView.resignFirstResponder()
+        //self.dataPickerView.frameForAlignmentRect(CGRectMake(0, 900, 375, 219))
+        
+          //th(animated: false, completion: nil)
+    }
+    
+    
+    
+    
+    
+    
+    
     
     
     func textFieldDidBeginEditing(_ textField: UITextField) {    //delegate method
+          activeDataArray = []
         if (textField==txtEmail)
         {
-           // txtEmail.text=""
-        txtEmail.textColor = UIColor.black
+          
+            txtEmail.textColor = UIColor.black
+            
+
+        }
+            if textField == txtGender {
+            activeDataArray=strGender
+                value=1
+           
+            } else
+                if textField == txtActor {
+                    activeDataArray = stringActor
+                    value=2
+            }
+            thePicker.reloadAllComponents()
+            //thePicker.hidden = false
         }
 
-    }
+
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool
     {
         let newLength = textField.text!.count + string.count - range.length
