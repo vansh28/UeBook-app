@@ -17,7 +17,23 @@
 		00095DD423A10E4000EBBEE4 /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 00095DD323A10E4000EBBEE4 /* video.png */; };
 		00095DD723A10E6600EBBEE4 /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 00095DD623A10E6500EBBEE4 /* document.png */; };
 		00095DD923A1145400EBBEE4 /* uploadBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00095DD823A1145400EBBEE4 /* uploadBookViewController.swift */; };
-		004F7CE4239BB5BA00BAB2DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F7CE3239BB5BA00BAB2DD /* AVFoundation.framework */; };
+		000FCED523A754D2008B323F /* ShareUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FCED423A754D2008B323F /* ShareUsViewController.swift */; };
+		000FCED723A7575E008B323F /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCED623A7575E008B323F /* share.png */; };
+		000FCED923A7576B008B323F /* helpcenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCED823A7576A008B323F /* helpcenter.png */; };
+		000FCEDB23A75776008B323F /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEDA23A75775008B323F /* about.png */; };
+		000FCEDD23A7578E008B323F /* contactus.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEDC23A7578E008B323F /* contactus.png */; };
+		000FCEDF23A757CD008B323F /* languges.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEDE23A757CC008B323F /* languges.png */; };
+		000FCEE123A75E12008B323F /* CompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FCEE023A75E12008B323F /* CompanyInfoViewController.swift */; };
+		000FCEE323A764E1008B323F /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEE223A764E0008B323F /* help.png */; };
+		000FCEE523A7669C008B323F /* ic_error_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEE423A7669B008B323F /* ic_error_white.png */; };
+		000FCEE723A766BC008B323F /* imagebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEE623A766B3008B323F /* imagebg.png */; };
+		000FCEE923A766C5008B323F /* imagebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEE823A766C5008B323F /* imagebg.png */; };
+		000FCEEB23A768EE008B323F /* LeftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEEA23A768EE008B323F /* LeftArrow.png */; };
+		000FCEEE23A76E8B008B323F /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FCEED23A76E8B008B323F /* HelpViewController.swift */; };
+		000FCEF023A76EAD008B323F /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FCEEF23A76EAD008B323F /* ContactUsViewController.swift */; };
+		000FCEF223A78E23008B323F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000FCEF123A78E23008B323F /* AboutUsViewController.swift */; };
+		000FCEF423A7B5ED008B323F /* drop-down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 000FCEF323A7B5EC008B323F /* drop-down-arrow.png */; };
+		0027244923A3A40A005E523C /* Pods_UeBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0027244823A3A40A005E523C /* Pods_UeBook.framework */; };
 		004F7CF1239BCDBB00BAB2DD /* register.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CED239BCDBA00BAB2DD /* register.jpg */; };
 		004F7CF2239BCDBB00BAB2DD /* homescreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CEE239BCDBA00BAB2DD /* homescreen.jpg */; };
 		004F7CF3239BCDBB00BAB2DD /* login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004F7CEF239BCDBA00BAB2DD /* login.jpg */; };
@@ -84,7 +100,6 @@
 		00F14787239FBCFD00D6075B /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F14786239FBCFD00D6075B /* logout.png */; };
 		00F14789239FBD1200D6075B /* addbook.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F14788239FBD1200D6075B /* addbook.png */; };
 		00F3B7F2239E12DD0048FE80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3B7F1239E12DD0048FE80 /* HomeViewController.swift */; };
-		00FCDF3F239E367A001CBE60 /* Pods_UeBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FCDF3E239E367A001CBE60 /* Pods_UeBook.framework */; };
 		00FCDF41239E483B001CBE60 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCDF40239E483B001CBE60 /* ServiceManager.swift */; };
 		00FCDF48239E55AB001CBE60 /* AJAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCDF47239E55AB001CBE60 /* AJAlertController.swift */; };
 		00FCDF54239E584D001CBE60 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCDF53239E584D001CBE60 /* File.swift */; };
@@ -122,6 +137,27 @@
 		00095DD523A10E4300EBBEE4 /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
 		00095DD623A10E6500EBBEE4 /* document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = document.png; path = "../../../Docmention/Icons/New folder (2)/drawable-hdpi/document.png"; sourceTree = "<group>"; };
 		00095DD823A1145400EBBEE4 /* uploadBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadBookViewController.swift; sourceTree = "<group>"; };
+		000FCED423A754D2008B323F /* ShareUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareUsViewController.swift; sourceTree = "<group>"; };
+		000FCED623A7575E008B323F /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = "../../../Docmention/Icons/New folder (2)/drawable-hdpi/share.png"; sourceTree = "<group>"; };
+		000FCED823A7576A008B323F /* helpcenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = helpcenter.png; path = "../../../Docmention/Icons/New folder (2)/drawable-hdpi/helpcenter.png"; sourceTree = "<group>"; };
+		000FCEDA23A75775008B323F /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = about.png; path = "../../../Docmention/Icons/New folder (2)/drawable-hdpi/about.png"; sourceTree = "<group>"; };
+		000FCEDC23A7578E008B323F /* contactus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contactus.png; path = "../../../Docmention/Icons/New folder (2)/drawable-hdpi/contactus.png"; sourceTree = "<group>"; };
+		000FCEDE23A757CC008B323F /* languges.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = languges.png; path = "../../../Docmention/Icons/New folder (2)/drawable-hdpi/languges.png"; sourceTree = "<group>"; };
+		000FCEE023A75E12008B323F /* CompanyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfoViewController.swift; sourceTree = "<group>"; };
+		000FCEE223A764E0008B323F /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = "../../../Docmention/Icons/New folder (2)/drawable-xxhdpi/help.png"; sourceTree = "<group>"; };
+		000FCEE423A7669B008B323F /* ic_error_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_error_white.png; path = "../../../Docmention/Icons/New folder (2)/drawable-xxhdpi/ic_error_white.png"; sourceTree = "<group>"; };
+		000FCEE623A766B3008B323F /* imagebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imagebg.png; path = "../../../Docmention/Icons/New folder (2)/drawable-xxhdpi/imagebg.png"; sourceTree = "<group>"; };
+		000FCEE823A766C5008B323F /* imagebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = imagebg.png; path = "../../../Docmention/Icons/New folder (2)/drawable-xxhdpi/imagebg.png"; sourceTree = "<group>"; };
+		000FCEEA23A768EE008B323F /* LeftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftArrow.png; path = ../../../../../../../Downloads/LeftArrow.png; sourceTree = "<group>"; };
+		000FCEED23A76E8B008B323F /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		000FCEEF23A76EAD008B323F /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		000FCEF123A78E23008B323F /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		000FCEF323A7B5EC008B323F /* drop-down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "drop-down-arrow.png"; path = "../../../Docmention/Icons/New folder (2)/drawable-hdpi/drop-down-arrow.png"; sourceTree = "<group>"; };
+		0027244023A39B89005E523C /* Pods_UeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0027244223A39C80005E523C /* Pods_UeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0027244423A3A17D005E523C /* Pods_UeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0027244623A3A404005E523C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0027244823A3A40A005E523C /* Pods_UeBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_UeBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		004F7CE3239BB5BA00BAB2DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		004F7CED239BCDBA00BAB2DD /* register.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = register.jpg; path = "../../../Docmention/new screen/New folder (3)/register.jpg"; sourceTree = "<group>"; };
 		004F7CEE239BCDBA00BAB2DD /* homescreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homescreen.jpg; path = "../../../Docmention/new screen/New folder (3)/homescreen.jpg"; sourceTree = "<group>"; };
@@ -214,11 +250,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0027244923A3A40A005E523C /* Pods_UeBook.framework in Frameworks */,
 				00FCDF57239E6B20001CBE60 /* Bolts.framework in Frameworks */,
 				00FCDF59239E6B3E001CBE60 /* FBSDKCoreKit.framework in Frameworks */,
 				00FCDF5B239E6B58001CBE60 /* FBSDKLoginKit.framework in Frameworks */,
-				00FCDF3F239E367A001CBE60 /* Pods_UeBook.framework in Frameworks */,
-				004F7CE4239BB5BA00BAB2DD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,9 +274,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000FCEEC23A76D8E008B323F /* HelpCenterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				000FCEED23A76E8B008B323F /* HelpViewController.swift */,
+				000FCEEF23A76EAD008B323F /* ContactUsViewController.swift */,
+			);
+			path = HelpCenterScreen;
+			sourceTree = "<group>";
+		};
 		004F7CE2239BB5BA00BAB2DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0027244823A3A40A005E523C /* Pods_UeBook.framework */,
+				0027244623A3A404005E523C /* Alamofire.framework */,
+				0027244423A3A17D005E523C /* Pods_UeBook.framework */,
+				0027244223A39C80005E523C /* Pods_UeBook.framework */,
+				0027244023A39B89005E523C /* Pods_UeBook.framework */,
 				00FCDF3E239E367A001CBE60 /* Pods_UeBook.framework */,
 				004F7CE3239BB5BA00BAB2DD /* AVFoundation.framework */,
 				EBC047D05F97969BCB29F16E /* Pods_UeBook.framework */,
@@ -294,8 +343,8 @@
 				005852C9239A713000E5BE9B /* Images */,
 				005852C8239A712200E5BE9B /* ViewController */,
 				005852A6239A710A00E5BE9B /* Info.plist */,
-				0058529E239A710A00E5BE9B /* Main.storyboard */,
 				005852A1239A710A00E5BE9B /* Assets.xcassets */,
+				0058529E239A710A00E5BE9B /* Main.storyboard */,
 			);
 			path = UeBook;
 			sourceTree = "<group>";
@@ -321,6 +370,7 @@
 		005852C8239A712200E5BE9B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				000FCEEC23A76D8E008B323F /* HelpCenterScreen */,
 				0058529C239A710A00E5BE9B /* ViewController.swift */,
 				0058530E239A76E400E5BE9B /* loginViewController.swift */,
 				00585310239A770600E5BE9B /* registerViewController.swift */,
@@ -330,7 +380,10 @@
 				00D44D9E239FA6D7009B94C1 /* UserProfileViewController.swift */,
 				00095DC123A0B0FA00EBBEE4 /* NotpadViewController.swift */,
 				00095DCB23A0CF5700EBBEE4 /* EditUserViewController.swift */,
+				000FCEE023A75E12008B323F /* CompanyInfoViewController.swift */,
 				00095DD823A1145400EBBEE4 /* uploadBookViewController.swift */,
+				000FCED423A754D2008B323F /* ShareUsViewController.swift */,
+				000FCEF123A78E23008B323F /* AboutUsViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -338,6 +391,14 @@
 		005852C9239A713000E5BE9B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				000FCEDE23A757CC008B323F /* languges.png */,
+				000FCEEA23A768EE008B323F /* LeftArrow.png */,
+				000FCEF323A7B5EC008B323F /* drop-down-arrow.png */,
+				000FCEE823A766C5008B323F /* imagebg.png */,
+				000FCEDA23A75775008B323F /* about.png */,
+				000FCEDC23A7578E008B323F /* contactus.png */,
+				000FCED623A7575E008B323F /* share.png */,
+				000FCED823A7576A008B323F /* helpcenter.png */,
 				00095DCD23A0F72700EBBEE4 /* ic_arrow_back.png */,
 				00095DD623A10E6500EBBEE4 /* document.png */,
 				00095DD123A10E2700EBBEE4 /* audio.png */,
@@ -347,7 +408,10 @@
 				004F7CF5239BD11A00BAB2DD /* LOGO */,
 				004F7CEE239BCDBA00BAB2DD /* homescreen.jpg */,
 				004F7CEF239BCDBA00BAB2DD /* login.jpg */,
+				000FCEE223A764E0008B323F /* help.png */,
+				000FCEE423A7669B008B323F /* ic_error_white.png */,
 				004F7CED239BCDBA00BAB2DD /* register.jpg */,
+				000FCEE623A766B3008B323F /* imagebg.png */,
 				004F7CF0239BCDBA00BAB2DD /* spash-screen.jpg */,
 				005852E9239A731800E5BE9B /* Logo */,
 				005852CC239A718E00E5BE9B /* Launch */,
@@ -602,12 +666,19 @@
 			files = (
 				005852DC239A728600E5BE9B /* email-48.png in Resources */,
 				00F14780239FBC6D00D6075B /* companyinfo.png in Resources */,
+				000FCEE523A7669C008B323F /* ic_error_white.png in Resources */,
 				00585309239A73D600E5BE9B /* user-96.png in Resources */,
 				00F14782239FBC9000D6075B /* chat_icon.png in Resources */,
 				005852F1239A734900E5BE9B /* logo-1080-300.png in Resources */,
+				000FCEDF23A757CD008B323F /* languges.png in Resources */,
+				000FCED723A7575E008B323F /* share.png in Resources */,
+				000FCED923A7576B008B323F /* helpcenter.png in Resources */,
 				00585304239A73D600E5BE9B /* gender-48.png in Resources */,
+				000FCEEB23A768EE008B323F /* LeftArrow.png in Resources */,
+				000FCEE923A766C5008B323F /* imagebg.png in Resources */,
 				005852EE239A734900E5BE9B /* logo-450-126.png in Resources */,
 				00F14787239FBCFD00D6075B /* logout.png in Resources */,
+				000FCEE323A764E1008B323F /* help.png in Resources */,
 				005852A5239A710A00E5BE9B /* LaunchScreen.storyboard in Resources */,
 				00095DD723A10E6600EBBEE4 /* document.png in Resources */,
 				004F7CF2239BCDBB00BAB2DD /* homescreen.jpg in Resources */,
@@ -621,6 +692,7 @@
 				004F7CFB239BD13300BAB2DD /* e-book-512.png in Resources */,
 				004F7CFD239BD13300BAB2DD /* e-book-ico-512.png in Resources */,
 				00D44D9D239FA452009B94C1 /* camera.png in Resources */,
+				000FCEDB23A75776008B323F /* about.png in Resources */,
 				00F1477B239FB0EA00D6075B /* userinfo.png in Resources */,
 				005852D5239A71D500E5BE9B /* 2-register.png in Resources */,
 				00095DD023A0F74200EBBEE4 /* ic_error_white.png in Resources */,
@@ -629,6 +701,7 @@
 				005852DA239A727D00E5BE9B /* email-36.png in Resources */,
 				00095DCE23A0F72700EBBEE4 /* ic_arrow_back.png in Resources */,
 				005852D1239A71C300E5BE9B /* 3-login.png in Resources */,
+				000FCEE723A766BC008B323F /* imagebg.png in Resources */,
 				005852E5239A72DC00E5BE9B /* password-72.png in Resources */,
 				00D44D8A239F71AC009B94C1 /* notepad.png in Resources */,
 				004F7CFA239BD13300BAB2DD /* e-book-1080.png in Resources */,
@@ -636,6 +709,7 @@
 				00F14785239FBCD600D6075B /* dict.png in Resources */,
 				005852EF239A734900E5BE9B /* logo-720-200.png in Resources */,
 				005852E4239A72DC00E5BE9B /* password-48.png in Resources */,
+				000FCEDD23A7578E008B323F /* contactus.png in Resources */,
 				00585308239A73D600E5BE9B /* user-36.png in Resources */,
 				00585302239A73D600E5BE9B /* gender-72.png in Resources */,
 				005852E8239A72FF00E5BE9B /* email-72.png in Resources */,
@@ -646,6 +720,7 @@
 				005852FF239A73D600E5BE9B /* book-36.png in Resources */,
 				00095DD423A10E4000EBBEE4 /* video.png in Resources */,
 				005852A0239A710A00E5BE9B /* Main.storyboard in Resources */,
+				000FCEF423A7B5ED008B323F /* drop-down-arrow.png in Resources */,
 				00585306239A73D600E5BE9B /* book-72.png in Resources */,
 				00095DD223A10E2800EBBEE4 /* audio.png in Resources */,
 				00D44D8F239F7287009B94C1 /* notepad1.png in Resources */,
@@ -721,17 +796,22 @@
 				00095DCA23A0C03B00EBBEE4 /* ContactAPI.swift in Sources */,
 				0058529D239A710A00E5BE9B /* ViewController.swift in Sources */,
 				00095DCC23A0CF5700EBBEE4 /* EditUserViewController.swift in Sources */,
+				000FCEF223A78E23008B323F /* AboutUsViewController.swift in Sources */,
 				0058529B239A710A00E5BE9B /* AppDelegate.swift in Sources */,
 				0058530F239A76E400E5BE9B /* loginViewController.swift in Sources */,
 				00D44D97239F8492009B94C1 /* TabBarViewController.swift in Sources */,
+				000FCEF023A76EAD008B323F /* ContactUsViewController.swift in Sources */,
 				00FCDF48239E55AB001CBE60 /* AJAlertController.swift in Sources */,
 				00095DD923A1145400EBBEE4 /* uploadBookViewController.swift in Sources */,
+				000FCED523A754D2008B323F /* ShareUsViewController.swift in Sources */,
 				00095DC223A0B0FA00EBBEE4 /* NotpadViewController.swift in Sources */,
 				00D44D99239F99E9009B94C1 /* ActiveViewController.swift in Sources */,
+				000FCEEE23A76E8B008B323F /* HelpViewController.swift in Sources */,
 				00585311239A770600E5BE9B /* registerViewController.swift in Sources */,
 				00FCDF54239E584D001CBE60 /* File.swift in Sources */,
 				00095DC823A0C03400EBBEE4 /* Contact.swift in Sources */,
 				00D44D9F239FA6D7009B94C1 /* UserProfileViewController.swift in Sources */,
+				000FCEE123A75E12008B323F /* CompanyInfoViewController.swift in Sources */,
 				00FCDF41239E483B001CBE60 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
